@@ -1,0 +1,5 @@
+- To change where vagrant saves boxes (for example, if you have a tiny, tiny SSD for your OS...) you have to change the VAGRANT_HOME environment variable.
+    - Linux -> "export VAGRANT_HOME='path/to/vagrant'"
+    - Winderps -> 'setx VAGRNT_HOME "X:\path\to\vagrant\" /M'
+        - the "/M" sets it as a system variable rather than a user one
+    - see https://harvsworld.com/2014/change-vagrant_home-directory-windows/#comment-1704189974
